@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Home
 permalink: /
 ---
 
@@ -15,7 +16,7 @@ permalink: /
     </h4> 
     <h4>Our mission is to greet all who enter our doors with loving presence, provide nourishment for mind body heart and soul and lessen unnecessary suffering, as we sow seeds of a harmonious home life and compassionate community.
     </h4>
-    <div style="width: 100%; max-width: 30rem;">
+    <div style="width: 100%; max-width: 23rem;">
         <figure>
             <img src="/RonKurtz.jpg" alt="Ron Kurtz - Creator of Hakomi Method">
             <figcaption>

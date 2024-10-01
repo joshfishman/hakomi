@@ -4,6 +4,7 @@ title: Hakomi House 2025 Schedule
 permalink: /hakomi-house-schedule/
 ---
 <center>
+   <h1 class="post-title">Hakomi House 2025 Schedule</h1>
     <h3>Hakomi House of Ashland, OR</h3>
     <h4><em>In celebration of The Ron Kurtz Refined Hakomi Method</em></h4>
     <h3>Presents</h3>

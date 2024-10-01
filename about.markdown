@@ -3,7 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
-# About Hakomi House
+<center>
+   <h1 class="post-title">About Hakomi House</h1>
+   <div style="width: 100%; max-width: 23rem;">
+    <figure>
+        <img src="/sanctuary.jpg" alt="Hakomi House">
+        <figcaption>
+           The Hakomi House
+        </figcaption>
+    </figure>
+    </div>
+</center>
 
 Hakomi house of Ashland Oregon is preparing to reopen its stores for a new beginning in January 2025. 
 
