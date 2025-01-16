@@ -25,15 +25,6 @@ permalink: /hakomi-house-schedule/
         <li>November 7th-9th</li>
     </ul>
 <em>(All Sessions 9:00 am to 6:00 pm)</em>
-
-<h4>Thursday Individual Therapy Sessions</h4>
-<ul>
-        <li>July 11th-13th</li>
-        <li>August 8th-10th</li>
-        <li>Septembx`er 5th-7th</li>
-        <li>October 3rd-5th</li>
-        <li>November 7th-9th</li>
-</ul>
 <h4>Thursday Individual Therapy Sessions</h4>
 <ul>
 <li>May 8th</li>
