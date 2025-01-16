@@ -24,7 +24,8 @@ permalink: /hakomi-house-schedule/
         <li>October 3rd-5th</li>
         <li>November 7th-9th</li>
     </ul>
-    <em>(All Sessions 9:00 am to 6:00 pm)</em>
+<em>(All Sessions 9:00 am to 6:00 pm)</em>
+
 <h4>Thursday Individual Therapy Sessions</h4>
 <ul>
         <li>July 11th-13th</li>
@@ -44,4 +45,4 @@ permalink: /hakomi-house-schedule/
 <li>November 6th</li>
 <li>27th-29th</li>
 </ul>
-    <em>All Sessions 9:00 am to 6:00 pm</em>
+<em>All Sessions 9:00 am to 6:00 pm</em>
