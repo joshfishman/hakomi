@@ -1,0 +1,19 @@
+{
+  "name": "hakomi",
+  "version": "1.0.0",
+  "description": "# How to Develop Open Github Codespace Run 'bundle install' Run 'jekyll serve'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-shell": "^0.8.0"
+  }
+}
