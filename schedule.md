@@ -35,6 +35,6 @@ permalink: /hakomi-house-schedule/
 <li>August 14</li>
 <li>September 11</li>
 <li>October 16</li>
-<li>November 13h/li>
+<li>November 13</li>
 </ul>
 <em>All Sessions 9:00 am to 6:00 pm</em>
