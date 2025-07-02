@@ -252,3 +252,14 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+button {
+  background-color: #cccccc;
+  padding: 15px;
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
