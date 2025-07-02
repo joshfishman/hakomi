@@ -254,8 +254,11 @@ table {
 }
 
 button {
-  background-color: #cccccc;
-  padding: 15px;
+  background-color: #888;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 1rem 0;
 }
 
 button a {
@@ -263,6 +266,12 @@ button a {
   text-decoration: none;
   font-size: 1.25rem;
 }
+
 button a:hover {
    text-decoration: none;
+   color:white;
+}
+
+button:hover {
+  background-color: #000;
 }
