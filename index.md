@@ -24,6 +24,6 @@ permalink: /
             </figcaption>
         </figure>
     </div>
-    <button><a href="https://hakomi.substack.com/p/ron-kurtz-last-public-presentation">Wath Ron's Final Talk</a></button>
+    <button><a href="https://hakomi.substack.com/p/ron-kurtz-last-public-presentation">Watch Ron's Final Talk</a></button>
     <h2>May all beings benefit!</h2>
 </center>
