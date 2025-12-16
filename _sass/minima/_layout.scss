@@ -46,6 +46,19 @@
     }
   }
 
+  // Button link wrapper - remove underline
+  a[href*="substack"],
+  .substack-button-link,
+  .button {
+    text-decoration: none;
+    
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+    }
+  }
+
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
@@ -98,6 +111,56 @@
       margin-left: 20px;
     }
   }
+}
+
+/**
+ * Button styles
+ */
+.substack-button,
+.button,
+button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF6719;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: none;
+  line-height: 20px;
+  transition: background 0.25s;
+  gap: 8px;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    background-color: darken(#FF6719, 5%);
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: darken(#FF6719, 10%);
+  }
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+   &:visited {
+    color: #fff;
+   }
+   &:hover,
+   &:focus,
+   &:active {
+    color: #fff;
+    text-decoration: none;
+   }
 }
 
 

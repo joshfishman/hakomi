@@ -253,25 +253,12 @@ table {
   }
 }
 
-button {
-  background-color: #888;
-  padding: 10px 15px;
-  border-radius: 10px;
-  border: none;
-  margin: 1rem 0;
-}
-
-button a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1.25rem;
-}
-
-button a:hover {
-   text-decoration: none;
-   color:white;
-}
-
-button:hover {
-  background-color: #000;
-}
+.dates {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} 
+.dates li {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+} 
