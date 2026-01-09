@@ -140,7 +140,7 @@ button {
   &:hover,
   &:focus,
   &:visited {
-    background-color: darken(#FF6719, 5%);
+    background-color: darken(#FF6719, 15%);
     text-decoration: none;
   }
 
@@ -149,18 +149,19 @@ button {
   }
 }
 
-button a {
+a:has(> button) {
   color: #fff;
   text-decoration: none;
-   &:visited {
+
+  &:visited {
     color: #fff;
-   }
-   &:hover,
-   &:focus,
-   &:active {
+  }
+  &:hover,
+  &:focus,
+  &:active {
     color: #fff;
     text-decoration: none;
-   }
+  }
 }
 
 

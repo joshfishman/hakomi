@@ -57,6 +57,11 @@ permalink: /hakomi-house-schedule/
   <h1 class="post-title" style="text-align:center;">2026 Hakomi House 8-month Training Program</h1>
   <h4><em>In celebration of The Ron Kurtz Refined Hakomi Method</em></h4>
   <h3>Beginning March 2026</h3>
+  <a href="https://mailchi.mp/hakomihouse/interested-applicant-form-website">
+  <button class="substack-button">
+  Apply to Hakomi House
+  </button>
+  </a>
 </center>
 
 <div class="schedule-intro-section">
