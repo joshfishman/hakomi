@@ -67,7 +67,8 @@ permalink: /hakomi-house-schedule/
 <div class="schedule-intro-section">
   <div class="schedule-intro-content">
     <p>The comprehensive training is intended for those who are interested in learning Hakomi as a practice for personal and community healing, as well as those who would like to step onto the path of becoming a certified Hakomi practitioner.</p>
-    <h4>Training Schedule</h4>
+    <br>
+    <h3>Training Schedule</h3>
     <p><em>Friday, Saturdays, and Sundays (approx. 9am to 6pm)</em></p>
   <ul class="dates">
     <li>March 20th, 21st, and 22nd</li>
@@ -79,7 +80,13 @@ permalink: /hakomi-house-schedule/
   <li>September 25th, 26th, 27th</li>
   <li>October 23rd, 24th, 25th</li>
 </ul>
+<br>
+<h3>Pricing</h3>
+<p>The cost for the full training is $4800.</p> 
+<p>A $500 deposit will be required with the rest of the fee due two weeks prior to the first session.</p>
+<p>All payments will be invoiced upon acceptance to the program. Payable by credit card or check.</p>
 </div>
+
   <div class="schedule-image-wrapper">
     <img src="/RonKurtz.jpg" alt="Ron Kurtz - Creator of Hakomi Method">
   </div>
