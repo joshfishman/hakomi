@@ -84,6 +84,7 @@ permalink: /hakomi-house-schedule/
 <h3>Pricing</h3>
 <p>The cost for the full training is $4800.</p> 
 <p>A $500 deposit will be required with the rest of the fee due two weeks prior to the first session.</p>
+<p>Single Weekends may be atttended for $900</p>
 <p>All payments will be invoiced upon acceptance to the program. Payable by credit card or check.</p>
 </div>
 
