@@ -6,6 +6,7 @@ permalink: /
 <section class="hero">
   <div class="hero-content">
     <p class="hero-headline">We welcome you<br>home to your<br>true self</p>
+    <img src="/logo-stacked.png" alt="Hakomi House" class="hero-logo">
   </div>
 </section>
 
