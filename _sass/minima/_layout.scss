@@ -1,3 +1,8 @@
+@keyframes navItemIn {
+  from { opacity: 0; transform: translateY(-14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .wrapper {
   max-width:1000px;
 }
@@ -60,23 +65,27 @@
   }
 
   @include media-query($on-palm) {
+    // Remove the box — just float the hamburger
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    text-align: center;
 
+    // Hamburger label
     label[for="nav-trigger"] {
       display: block;
       float: right;
       width: 36px;
       height: 36px;
-      z-index: 2;
+      z-index: 1002;
       cursor: pointer;
+      position: relative;
     }
 
+    // Hamburger icon — crimson, no bg
     .menu-icon {
       display: block;
       float: right;
@@ -85,30 +94,92 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
+      background: transparent;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: #D63441;
       }
     }
 
+    // When open: label floats above overlay and shows X
+    .nav-trigger:checked ~ label[for="nav-trigger"] {
+      position: fixed;
+      top: 14px;
+      right: $spacing-unit / 2;
+      z-index: 1002;
+
+      .menu-icon > svg { display: none; }
+
+      .menu-icon::after {
+        content: '×';
+        font-size: 32px;
+        line-height: 1;
+        color: #fff;
+        display: block;
+        margin-top: -4px;
+      }
+    }
+
+    // Always fixed, hidden via opacity/visibility so transitions work
     input ~ .trigger {
-      clear: both;
-      display: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.88);
+      z-index: 1000;
+      gap: 3rem;
+      padding: 0;
+      text-align: center;
+      // Hidden state
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
     }
 
+    // Open: fade in overlay
     input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
     }
 
+    // Items: staggered fade + slide down
+    input:checked ~ .trigger > * {
+      animation: navItemIn 0.35s ease both;
+    }
+    input:checked ~ .trigger > *:nth-child(1) { animation-delay: 0.12s; }
+    input:checked ~ .trigger > *:nth-child(2) { animation-delay: 0.20s; }
+    input:checked ~ .trigger > *:nth-child(3) { animation-delay: 0.28s; }
+    input:checked ~ .trigger > *:nth-child(4) { animation-delay: 0.36s; }
+    input:checked ~ .trigger > *:nth-child(5) { animation-delay: 0.44s; }
+
+    // Nav items — large white centered
     .page-link {
       display: block;
-      padding: 5px 10px;
+      font-size: 30px;
+      font-family: 'Albert Sans', system-ui, sans-serif;
+      font-weight: 400;
+      color: #fff !important;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+      text-decoration: none;
 
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
+      &:visited { color: #fff !important; }
+      &:hover { color: rgba(255,255,255,0.7) !important; text-decoration: none; }
+    }
+
+    // Apply Now inside overlay
+    .apply-button {
+      font-size: 22px;
+      padding: 0.4rem 1.2rem;
+      margin-left: 0;
+      vertical-align: baseline;
     }
   }
 }
@@ -321,4 +392,302 @@ a:has(> button) {
       @include relative-font-size(1.125);
     }
   }
+}
+
+// Body font
+body {
+  font-family: 'Albert Sans', system-ui, sans-serif;
+}
+
+// Hero
+.hero {
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/koi-pond.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-headline {
+  font-family: 'Forum', Georgia, serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 400;
+  color: #f5f0e8;
+  line-height: 1.15;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+// Remove page-content padding on homepage so hero starts flush with nav
+.home .page-content {
+  padding: 0;
+}
+
+// Below-fold section
+.home-cta-heading {
+  font-family: 'Albert Sans', system-ui, sans-serif;
+  font-size: 28px;
+  color: #414141;
+  margin-bottom: 1.5rem;
+
+  @include media-query($on-palm) {
+    font-size: 20px;
+  }
+}
+
+.home-cta-body {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+
+  @include media-query($on-palm) {
+    font-size: 16px;
+  }
+}
+
+.home-below-fold {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 0;
+
+  .home-cta { flex: 1; }
+
+  .home-image {
+    flex: 0 0 320px;
+
+    img {
+      width: 100%;
+      aspect-ratio: 4/5;
+      object-fit: cover;
+      border-radius: 8px !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding: 2rem 15px;
+    .home-image { flex: 1; width: 100%; }
+  }
+}
+
+// Green filled button (inverts to outline on hover)
+.btn-green {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background: #4F958B;
+  color: #fff;
+  border: 1.5px solid #4F958B;
+  border-radius: 4px;
+  font-family: 'Albert Sans', system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover { background: transparent; color: #4F958B; text-decoration: none; }
+}
+
+// Outline CTA button
+.outline-button {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 1.5px solid #4F958B;
+  color: #4F958B;
+  border-radius: 4px;
+  font-family: 'Albert Sans', system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover { background: #4F958B; color: #fff; text-decoration: none; }
+}
+
+// Homepage: transparent header floating over hero
+.home .site-header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  border-top: none;
+  border-bottom: none;
+  z-index: 10;
+}
+.home .site-title,
+.home .site-nav .page-link {
+  color: #fff;
+  &:visited { color: #fff; }
+  &:hover { color: rgba(255,255,255,0.8); }
+}
+.home .site-nav .menu-icon > svg { fill: #fff; }
+
+// Logo (replaces heron.jpg + site-title text)
+.site-logo {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-right: 0.5rem;
+  border-radius: 0 !important;
+}
+
+// Nav dropdown
+.nav-dropdown {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+
+  // Remove the extra margin from the page-link inside
+  > .page-link {
+    margin-right: 0;
+  }
+
+  .nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid $grey-color-light;
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    min-width: 130px;
+    z-index: 100;
+    padding: 0.4rem 0;
+
+    a {
+      display: block;
+      padding: 0.45rem 1rem;
+      color: $text-color;
+      font-size: 0.9rem;
+      text-decoration: none;
+      white-space: nowrap;
+
+      &:hover {
+        background: #f5f5f5;
+        color: #4F958B;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &:hover .nav-dropdown-menu,
+  &:focus-within .nav-dropdown-menu {
+    display: block;
+  }
+}
+
+// On homepage the dropdown trigger text should be white
+.home .nav-dropdown > .page-link {
+  color: #fff;
+  &:visited { color: #fff; }
+  &:hover { color: rgba(255,255,255,0.8); }
+}
+
+// Accordion trigger — completely hidden everywhere
+.accordion-trigger {
+  display: none !important;
+  appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+.accordion-arrow { display: none; }
+
+// Mobile accordion
+@include media-query($on-palm) {
+  .nav-dropdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    gap: 0 0.4rem;
+
+    // Arrow — large, inline to the right of "About"
+    .accordion-arrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 56px;
+      color: rgba(255,255,255,0.65);
+      cursor: pointer;
+      line-height: 1;
+      transition: transform 0.25s ease, color 0.2s ease;
+      user-select: none;
+      margin-top: -6px; // optical alignment
+      min-width: 44px;
+      max-height: 40px;
+    }
+
+    .accordion-trigger:checked ~ .accordion-arrow {
+      transform: rotate(90deg);
+      color: #fff;
+    }
+
+    // Sub-items: hidden by default, animate in when open
+    .nav-dropdown-menu {
+      display: none;
+      flex: 0 0 100%; // own row below About + arrow
+      position: static;
+      transform: none;
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      text-align: center;
+      padding: 0;
+
+      a {
+        display: block;
+        font-size: 22px;
+        font-family: 'Albert Sans', system-ui, sans-serif;
+        color: rgba(255,255,255,0.75);
+        padding: 0.4rem 0;
+        text-decoration: none;
+        &:hover { color: #fff; background: transparent; }
+      }
+    }
+
+    .accordion-trigger:checked ~ .nav-dropdown-menu {
+      display: block;
+      animation: subItemIn 0.25s ease both;
+    }
+  }
+}
+
+@keyframes subItemIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+// Apply Now button in nav
+.apply-button {
+  display: inline-block;
+  background: #D63441;
+  color: #fff !important;
+  padding: 0.3rem 0.9rem;
+  border-radius: 4px;
+  font-family: 'Albert Sans', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  margin-left: 20px;
+  line-height: 1.4;
+  vertical-align: middle;
+  &:hover { background: darken(#D63441, 10%); color: #fff !important; }
+  &:visited { color: #fff !important; }
 }

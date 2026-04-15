@@ -1,29 +1,21 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
-title: Home
+layout: home
 permalink: /
 ---
 
-<center>
-    <h1 class="post-title">
-    Welcome to Hakomi House
-    </h1>
-    <h4>
-    Hakomi House of Ashland Oregon is a place to gather, experience and learn the Ron Kurtz Refined Hakomi Method of Mindfulness inspired, body centered, assisted self discovery.
-    </h4> 
-    <h4>Our mission is to greet all who enter our doors with loving presence, provide nourishment for mind body heart and soul and lessen unnecessary suffering, as we sow seeds of a harmonious home life and compassionate community.
-    </h4>
-    <div style="width: 100%; max-width: 23rem;">
-        <figure>
-            <img src="/RonKurtz.jpg" alt="Ron Kurtz - Creator of Hakomi Method">
-            <figcaption>
-            Ron Kurtz - Creator of Hakomi Method
-            </figcaption>
-        </figure>
-    </div>
-    <button><a href="https://hakomi.substack.com/p/ron-kurtz-last-public-presentation">Watch Ron's Final Talk</a></button>
-    <h2>May all beings benefit!</h2>
-</center>
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-headline">We welcome you<br>home to your<br>true self</p>
+  </div>
+</section>
+
+<section class="home-below-fold wrapper">
+  <div class="home-cta">
+    <h2 class="home-cta-heading">Ron Kurtz &amp; the Refined Hakomi Method</h2>
+    <p class="home-cta-body">Hakomi House of Ashland was co-created by Ron Kurtz and Marina McDonald as a place to refine and share the Hakomi method — a mindfulness-based, body-centered practice for assisted self-discovery. Watch Ron's final public talk, where he defined the essence of Refined Hakomi.</p>
+    <a href="https://hakomi.substack.com/p/ron-kurtz-last-public-presentation" class="btn-green">Watch Ron's Final Talk</a>
+  </div>
+  <div class="home-image">
+    <img src="/RonKurtz.jpg" alt="Ron Kurtz - Creator of Hakomi Method">
+  </div>
+</section>

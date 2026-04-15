@@ -68,24 +68,52 @@ permalink: /hakomi-house-schedule/
   <div class="schedule-intro-content">
     <p>The comprehensive training is intended for those who are interested in learning Hakomi as a practice for personal and community healing, as well as those who would like to step onto the path of becoming a certified Hakomi practitioner.</p>
     <br>
-    <h3>Training Schedule</h3>
-    <p><em>Friday, Saturdays, and Sundays (approx. 9am to 6pm)</em></p>
-  <ul class="dates">
-    <li>March 20th, 21st, and 22nd</li>
-    <li>April 24th, 25th, and 26th</li>
-    <li>May 22nd, 23rd, and 24th</li>
-    <li>June 26th, 27th, and 28th</li>
-    <li>July 24th, 25th, 26th</li>
-    <li>August 28th, 29th, 30th</li>
-  <li>September 25th, 26th, 27th</li>
-  <li>October 23rd, 24th, 25th</li>
-</ul>
-<br>
-<h3>Pricing</h3>
-<p>The cost for the full training is $4800.</p> 
-<p>A $500 deposit will be required with the rest of the fee due two weeks prior to the first session.</p>
-<p>Single Weekends may be atttended for $900</p>
-<p>All payments will be invoiced upon acceptance to the program. Payable by credit card or check.</p>
+    <h3>Remaining 2026 Training Dates</h3>
+    <p><em>Friday through Sunday, approx. 9am to 6pm</em></p>
+    <ul class="dates">
+      <li>April 24, 25, 26</li>
+      <li>May 22, 23, 24</li>
+      <li>June 26, 27, 28</li>
+      <li>July 24, 25, 26</li>
+      <li>August 28, 29, 30</li>
+      <li>September 25, 26, 27</li>
+      <li>October 23, 24, 25</li>
+    </ul>
+    <br>
+    <h3>Tuition</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Commitment</th>
+          <th>Per Weekend</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5 months, paid in advance</td>
+          <td>$600</td>
+          <td>$3,000</td>
+        </tr>
+        <tr>
+          <td>3–4 months, paid in advance</td>
+          <td>$700</td>
+          <td>$3,500</td>
+        </tr>
+        <tr>
+          <td>2 months, paid in advance</td>
+          <td>$800</td>
+          <td>$1,600</td>
+        </tr>
+        <tr>
+          <td>1 weekend, paid in advance</td>
+          <td>$900</td>
+          <td>$900</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em>The single weekend rate includes a personal session with Marina McDonald during the training weekend.</em></p>
+    <p>All payments will be invoiced upon acceptance. Payable by credit card or check.</p>
 </div>
 
   <div class="schedule-image-wrapper">
