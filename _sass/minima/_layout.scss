@@ -42,7 +42,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: #f5f0e8;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -200,7 +200,7 @@ button {
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
-  color: #fff;
+  color: #f5f0e8;
   cursor: pointer;
   box-shadow: none;
   line-height: 20px;
@@ -221,16 +221,16 @@ button {
 }
 
 a:has(> button) {
-  color: #fff;
+  color: #f5f0e8;
   text-decoration: none;
 
   &:visited {
-    color: #fff;
+    color: #f5f0e8;
   }
   &:hover,
   &:focus,
   &:active {
-    color: #fff;
+    color: #f5f0e8;
     text-decoration: none;
   }
 }
@@ -684,7 +684,7 @@ body {
 .apply-button {
   display: inline-block;
   background: #D63441;
-  color: #fff !important;
+  color: #f5f0e8 !important;
   padding: 0.3rem 0.9rem;
   border-radius: 4px;
   font-family: 'Albert Sans', system-ui, sans-serif;
@@ -696,6 +696,6 @@ body {
   margin-left: 20px;
   line-height: 1.4;
   vertical-align: middle;
-  &:hover { background: darken(#D63441, 10%); color: #fff !important; }
-  &:visited { color: #fff !important; }
+  &:hover { background: darken(#D63441, 10%); color: #f5f0e8 !important; }
+  &:visited { color: #f5f0e8 !important; }
 }
