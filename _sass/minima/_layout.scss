@@ -97,7 +97,7 @@
       background: transparent;
 
       > svg {
-        fill: #D63441;
+        fill: #f5f0e8;
       }
     }
 
@@ -114,7 +114,7 @@
         content: '×';
         font-size: 32px;
         line-height: 1;
-        color: #fff;
+        color: #f5f0e8;
         display: block;
         margin-top: -4px;
       }
@@ -163,15 +163,15 @@
       font-size: 30px;
       font-family: 'Albert Sans', system-ui, sans-serif;
       font-weight: 400;
-      color: #fff !important;
+      color: #f5f0e8 !important;
       text-align: center;
       padding: 0;
       margin: 0;
       line-height: 1;
       text-decoration: none;
 
-      &:visited { color: #fff !important; }
-      &:hover { color: rgba(255,255,255,0.7) !important; text-decoration: none; }
+      &:visited { color: #f5f0e8 !important; }
+      &:hover { color: rgba(245,240,232,0.7) !important; text-decoration: none; }
     }
 
     // Apply Now inside overlay
@@ -489,7 +489,7 @@ body {
   display: inline-block;
   padding: 0.6rem 1.4rem;
   background: #4F958B;
-  color: #fff;
+  color: #f5f0e8;
   border: 1.5px solid #4F958B;
   border-radius: 4px;
   font-family: 'Albert Sans', system-ui, sans-serif;
@@ -518,7 +518,7 @@ body {
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
 
-  &:hover { background: #4F958B; color: #fff; text-decoration: none; }
+  &:hover { background: #4F958B; color: #f5f0e8; text-decoration: none; }
 }
 
 // Homepage: transparent header floating over hero
@@ -532,11 +532,11 @@ body {
 }
 .home .site-title,
 .home .site-nav .page-link {
-  color: #fff;
-  &:visited { color: #fff; }
-  &:hover { color: rgba(255,255,255,0.8); }
+  color: #f5f0e8;
+  &:visited { color: #f5f0e8; }
+  &:hover { color: rgba(245,240,232,0.8); }
 }
-.home .site-nav .menu-icon > svg { fill: #fff; }
+.home .site-nav .menu-icon > svg { fill: #f5f0e8; }
 
 // Logo (replaces heron.jpg + site-title text)
 .site-logo {
@@ -596,9 +596,9 @@ body {
 
 // On homepage the dropdown trigger text should be white
 .home .nav-dropdown > .page-link {
-  color: #fff;
-  &:visited { color: #fff; }
-  &:hover { color: rgba(255,255,255,0.8); }
+  color: #f5f0e8;
+  &:visited { color: #f5f0e8; }
+  &:hover { color: rgba(245,240,232,0.8); }
 }
 
 // Accordion trigger — completely hidden everywhere
@@ -629,7 +629,7 @@ body {
       align-items: center;
       justify-content: center;
       font-size: 56px;
-      color: rgba(255,255,255,0.65);
+      color: rgba(245,240,232,0.65);
       cursor: pointer;
       line-height: 1;
       transition: transform 0.25s ease, color 0.2s ease;
@@ -641,7 +641,7 @@ body {
 
     .accordion-trigger:checked ~ .accordion-arrow {
       transform: rotate(90deg);
-      color: #fff;
+      color: #f5f0e8;
     }
 
     // Sub-items: hidden by default, animate in when open
@@ -661,10 +661,10 @@ body {
         display: block;
         font-size: 22px;
         font-family: 'Albert Sans', system-ui, sans-serif;
-        color: rgba(255,255,255,0.75);
+        color: rgba(245,240,232,0.75);
         padding: 0.4rem 0;
         text-decoration: none;
-        &:hover { color: #fff; background: transparent; }
+        &:hover { color: #f5f0e8; background: transparent; }
       }
     }
 
