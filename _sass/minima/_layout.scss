@@ -42,7 +42,7 @@
   }
 
   .page-link {
-    color: #f5f0e8;
+    color: $text-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -97,7 +97,7 @@
       background: transparent;
 
       > svg {
-        fill: #f5f0e8;
+        fill: $text-color;
       }
     }
 
