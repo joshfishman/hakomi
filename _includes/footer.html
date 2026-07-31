@@ -3,7 +3,9 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <a href="{{ "/" | relative_url }}" class="footer-logo-link">
+      <img src="/logo.png" class="footer-logo" alt="{{ site.title | escape }}">
+    </a>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">

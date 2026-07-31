@@ -12,6 +12,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #4F958B;
   font-weight: 400;
 }
+
+// Subheaders (taglines under a page title) stay dark
+h4 {
+  color: #414141;
+}
+
+// Footer logo (replaces the site-title text)
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: $spacing-unit / 2;
+}
+.footer-logo {
+  height: 55px;
+  width: auto;
+  border-radius: 0 !important;
+  display: block;
+}
 .site-header {
   padding: 0.3rem 0;
   background: #4F958B;
@@ -251,8 +268,18 @@ a:has(> button) {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: 1rem 0;
+  background: #4F958B;
+  border-top: none;
+  padding: 2rem 0;
+  color: #f5f0e8;
+
+  // Contact links stay legible on the teal background
+  .footer-col-wrapper { color: #f5f0e8; }
+
+  a {
+    color: #f5f0e8;
+    &:hover { color: rgba(245, 240, 232, 0.75); }
+  }
 }
 
 .footer-heading {
