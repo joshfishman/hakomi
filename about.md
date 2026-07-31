@@ -32,7 +32,7 @@ permalink: /about/
 .about-text h1 {
   font-family: 'Albert Sans', system-ui, sans-serif;
   font-size: 2rem;
-  color: #414141;
+  color: #4F958B;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -67,7 +67,7 @@ permalink: /about/
 
 <div class="about-section">
   <div class="about-photo">
-    <img src="/marinamcdonald.jpg" alt="Marina McDonald - Founder of Hakomi House">
+    <img src="/team/marinamcdonald.jpg" alt="Marina McDonald - Founder of Hakomi House">
   </div>
   <div class="about-text">
     <h1>About Marina McDonald</h1>

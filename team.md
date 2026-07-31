@@ -39,7 +39,7 @@ permalink: /team/
   margin-top: 0;
   font-family: 'Albert Sans', system-ui, sans-serif;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #4F958B;
 }
 
@@ -59,6 +59,18 @@ permalink: /team/
 <center><h1 class="post-title">Training Team</h1></center>
 
 <div class="team-grid">
+
+  <div class="team-member">
+    <div class="team-member-photo">
+      <img src="/team/marinamcdonald.jpg" alt="Marina McDonald">
+    </div>
+    <div class="team-member-bio">
+      <h2>Marina McDonald</h2>
+      <p>After meeting Ron Kurtz in 1997 Marina was blessed to know him as a friend, teacher, mentor and business partner and to train directly with him until his death in 2011.</p>
+      <p>As a certified Hakomi therapist, teacher, and trainer, Marina views her role in the current intensive as that of a midwife who supports rebirthing and reawakening our capacity to give and receive love.</p>
+      <p>Marina holds all participants as equally precious, sees each one as having their own unique needs and goals, meets every student where they are, and supports them in an ongoing process of assisted self-discovery, spontaneous healing, and expanding their capacity for relationship.</p>
+    </div>
+  </div>
 
   <div class="team-member">
     <div class="team-member-photo">

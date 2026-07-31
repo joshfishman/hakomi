@@ -51,12 +51,16 @@ permalink: /hakomi-house-schedule/
       object-position: center;
     }
   }
+  .schedule-intro-content h2,
+  .schedule-intro-content h3 {
+    color: #4F958B;
+    font-family: 'Albert Sans', system-ui, sans-serif;
+  }
 </style>
 
 <center>
-  <h1 class="post-title" style="text-align:center;">2026 Hakomi House 8-month Training Program</h1>
+  <h1 class="post-title" style="text-align:center;">Hakomi House Training Program</h1>
   <h4><em>In celebration of The Ron Kurtz Refined Hakomi Method</em></h4>
-  <h3>Beginning March 2026</h3>
   <a href="https://mailchi.mp/hakomihouse/interested-applicant-form-website">
   <button class="substack-button">
   Apply to Hakomi House
@@ -68,19 +72,35 @@ permalink: /hakomi-house-schedule/
   <div class="schedule-intro-content">
     <p>The comprehensive training is intended for those who are interested in learning Hakomi as a practice for personal and community healing, as well as those who would like to step onto the path of becoming a certified Hakomi practitioner.</p>
     <br>
-    <h3>Remaining 2026 Training Dates</h3>
+    <h3>2026 Trainings</h3>
     <p><em>Friday through Sunday, approx. 9am to 6pm</em></p>
     <ul class="dates">
-      <li>April 24, 25, 26</li>
-      <li>May 22, 23, 24</li>
-      <li>June 26, 27, 28</li>
-      <li>July 24, 25, 26</li>
       <li>August 28, 29, 30</li>
       <li>September 25, 26, 27</li>
       <li>October 23, 24, 25</li>
     </ul>
     <br>
+    <h3>2027 Trainings</h3>
+    <p><em>Friday through Sunday</em></p>
+    <ul class="dates">
+      <li>March 19, 20, 21</li>
+      <li>April 23, 24, 25</li>
+      <li>May 21, 22, 23</li>
+      <li>June 25, 26, 27</li>
+      <li>July 23, 24, 25</li>
+      <li>August 20, 21, 22</li>
+      <li>September 24, 25, 26</li>
+    </ul>
+    <br>
+    <h3>Advanced Training &mdash; Supervision Intensives</h3>
+    <ul class="dates">
+      <li>October 22, 23, 24</li>
+      <li>November 19, 20, 21</li>
+    </ul>
+    <br>
     <h3>Tuition</h3>
+    <p><strong>$4,200</strong> for the full 7-month, 21-day training for Hakomi Certification.</p>
+    <p><strong>$600</strong> for the advanced training.</p>
     <table>
       <thead>
         <tr>

@@ -67,7 +67,10 @@ body {
   display: flex;
   align-items: center;
   gap: 3rem;
-  padding: 4rem 0;
+  // Only vertical padding here — keep the horizontal padding from .wrapper
+  // so this section stays aligned with the global container (header/footer)
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
   .home-cta { flex: 1; }
 
