@@ -41,7 +41,7 @@ permalink: /movements-of-love/
     margin-top: 0;
     font-family: 'Albert Sans', system-ui, sans-serif;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #4F958B;
   }
 

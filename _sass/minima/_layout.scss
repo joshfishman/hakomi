@@ -6,6 +6,12 @@
 .wrapper {
   max-width:1000px;
 }
+
+// All headers: teal and un-bolded, sitewide
+h1, h2, h3, h4, h5, h6 {
+  color: #4F958B;
+  font-weight: 400;
+}
 .site-header {
   padding: 0.3rem 0;
   background: #4F958B;
@@ -444,7 +450,7 @@ body {
 .home-cta-heading {
   font-family: 'Albert Sans', system-ui, sans-serif;
   font-size: 28px;
-  color: #414141;
+  color: #4F958B;
   margin-bottom: 1.5rem;
 
   @include media-query($on-palm) {
@@ -466,7 +472,10 @@ body {
   display: flex;
   align-items: center;
   gap: 3rem;
-  padding: 4rem 0;
+  // Vertical padding only — keep the horizontal padding from .wrapper so this
+  // section aligns with the global container (header/footer)
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
   .home-cta { flex: 1; }
 
