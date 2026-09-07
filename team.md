@@ -109,18 +109,6 @@ permalink: /team/
 
   <div class="team-member">
     <div class="team-member-photo">
-      <img src="/team/kristi-chipowsky.jpeg" alt="Kristi Chipowsky">
-    </div>
-    <div class="team-member-bio">
-      <h2>Kristi Chipowsky</h2>
-      <p>Kristi is a gifted and experienced Massage Therapist skilled in Deep Tissue, Swedish massage, Trigger Point Therapy, Orthopedic massage, and Myofascial Release — and is Hakomi-informed. She has a caring, compassionate, intuitive and deep presence that provides a safe space for her clients to fully relax and receive the therapeutic benefits of her healing touch.</p>
-      <p>Kristi has experienced significant personal growth and healing through many years of shamanic medicine ceremonies and the trials of being a full-time single parent. She has cleared a lot of trauma through facing her shadows, and as a result has cultivated a newfound self-love and love of life. The depth of intimacy, openness and vulnerability she has accessed through her Refined Hakomi training has been a powerful experience and a natural progression on her journey of healing and self-discovery.</p>
-      <p>Kristi has lived in beautiful Southern Oregon for 24 years. Her interests include natural healing, dancing, yoga, creativity, recreating in nature, meditation, and above all, self-realization.</p>
-    </div>
-  </div>
-
-  <div class="team-member">
-    <div class="team-member-photo">
       <img src="/team/jeanie-bianca.jpeg" alt="Jeanie Bianca">
     </div>
     <div class="team-member-bio">
